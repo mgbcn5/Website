@@ -1,0 +1,109 @@
+/* General Body Styles */
+body {
+    background-color: #ffe6f2; /* Soft pink background */
+    color: #333; /* Dark gray text for readability */
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding around content */
+}
+
+/* Header and Navigation Styles */
+header {
+    background-color: #ff66b3; /* Darker pink for header */
+    padding: 10px 20px; /* Padding for header */
+    text-align: center; /* Center align the nav items */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    display: flex; /* Flexbox for horizontal layout */
+    justify-content: center; /* Center items */
+}
+
+nav li {
+    margin: 0 15px; /* Space between nav items */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text for links */
+    font-weight: bold; /* Bold links */
+    padding: 8px 12px; /* Padding around links */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+nav a:hover {
+    background-color: #ff3399; /* Darker pink on hover */
+}
+
+/* Main Content Styles */
+main {
+    max-width: 800px; /* Limit width for better readability */
+    margin: 20px auto; /* Center main content */
+    padding: 20px; /* Padding inside main */
+    background-color: white; /* White background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Image Styles */
+img {
+    display: block; /* Center the image */
+    margin: 20px auto; /* Add space around the image */
+    max-width: 100%; /* Responsive image */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Section Headings */
+h1, h2 {
+    color: #ff66b3; /* Pink color for headings */
+}
+
+/* Footer Navigation */
+.navigation {
+    text-align: center; /* Center navigation */
+    margin-top: 20px; /* Space above */
+}
+
+.navigation a {
+    color: #ff66b3; /* Pink color */
+    text-decoration: underline; /* Underline for emphasis */
+}
+/* Box Styles */
+.box {
+    background-color: #e7acac; /* White background for boxes */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 20px 0; /* Space between boxes */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Skills List Styles */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+
+/* Box Styles */
+.box {
+    background-color: #fff; /* White background for boxes */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 20px 0; /* Space between boxes */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Line Styles */
+.line {
+    border-top: 2px solid #ff69b4; /* Pink line */
+    margin: 20px 0; /* Space around the line */
+}
+
+/* Skills List Styles */
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
