@@ -1,19 +1,19 @@
-/* Import Google Font for primary heading (Method 2) */
+/* Import Google Font for primary heading (Method 1) */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /* Base styling for the webpage */
 /* Sets a soft background color and pastel font colors */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #faf9f6; /* Light cream background */
+    background-color: #e6f7f2; /* Light pastel green background */
     color: #4a4a4a; /* Dark grey text */
     margin: 0;
 }
 
 /* Header section styling */
-/* Adds a pastel lavender background and centers header text */
+/* Adds a pastel green background and centers header text */
 header {
-    background-color: #d9cfe2; /* Pastel lavender */
+    background-color: #cfe2d1; /* Soft pastel green */
     color: #333;
     padding: 20px;
     text-align: center;
@@ -37,40 +37,40 @@ nav ul li a {
     color: #4a4a4a;
     text-decoration: none;
     padding: 10px;
-    background-color: #b4e1d1; /* Soft mint green */
+    background-color: #a8d8a5; /* Soft pastel mint green */
     border-radius: 8px;
 }
 
 nav ul li a:hover {
     color: #ffffff;
-    background-color: #88c1b0; /* Slightly darker mint green on hover */
+    background-color: #7ca87a; /* Slightly darker mint green on hover */
 }
 
 /* Section styling for #bio with unique visual treatment */
-/* Light peach background and soft border */
+/* Light pastel peach background and soft border */
 #bio {
     padding: 20px;
-    background-color: #ffe5d9; /* Light pastel peach */
+    background-color: #e4f2e1; /* Light pastel greenish yellow */
     margin: 20px auto;
     width: 80%;
-    border: 2px solid #ffcbaf; /* Soft peach border */
+    border: 2px solid #b7d7a8; /* Soft pastel mint green border */
     border-radius: 10px; /* Rounded corners for a gentle look */
 }
 
 /* Styling for primary heading with Google Font */
-/* Uses the imported Google Font for h1 elements */
+/* Uses the linked Google Font for h1 elements */
 h1 {
     font-family: 'Pacifico', cursive; /* Using Google Font for primary heading */
     font-size: 2.5em;
     font-weight: 700;
-    color: #a09bbf; /* Soft pastel purple */
+    color: #5d8b67; /* Soft sage green */
     text-align: center;
 }
 
 h2 {
     font-size: 1.8em;
     font-weight: 700;
-    color: #a09bbf; /* Soft pastel purple */
+    color: #5d8b67; /* Soft sage green */
 }
 
 /* Image styling */
@@ -79,7 +79,7 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    border: 3px solid #cde4db; /* Light mint border */
+    border: 3px solid #d1f0e3; /* Light pastel green border */
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -98,7 +98,7 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color: #fef6e4; /* Light pastel yellow */
+    background-color: #f1f9f1; /* Light pastel greenish white */
 }
 
 caption {
@@ -115,7 +115,7 @@ th, td {
 }
 
 th {
-    background-color: #f7e9d7; /* Light tan */
+    background-color: #d3e7d5; /* Soft pastel mint */
 }
 
 /* Link styling */
@@ -133,7 +133,7 @@ a:hover {
 /* Footer styling */
 /* Soft pastel pink background to clearly distinguish footer */
 footer {
-    background-color: #f2c6de; /* Light pastel pink */
+    background-color: #f3d0c7; /* Light pastel peach pink */
     color: #4a4a4a;
     text-align: center;
     padding: 15px;
@@ -152,9 +152,9 @@ footer {
 
 .main-content .sidebar {
     width: 25%;
-    background-color: #f8ece8; /* Light pastel beige */
+    background-color: #f0f8e9; /* Light pastel beige-green */
     padding: 15px;
-    border-right: 2px solid #e1c4bb; /* Light beige border */
+    border-right: 2px solid #d1d9c4; /* Light beige border */
     border-radius: 10px;
 }
 
@@ -166,7 +166,7 @@ footer {
 /* Contact information styling */
 /* Soft pastel blue background and rounded borders */
 .contact-info {
-    background-color: #d4e5f7; /* Light pastel blue */
+    background-color: #d9f0f0; /* Light pastel blue */
     padding: 15px;
     margin: 20px 0;
     border-radius: 8px;
