@@ -1,192 +1,196 @@
+/* Import Google Font for primary heading (Method 2) */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 /* Base styling for the webpage */
 /* Sets a soft background color and pastel font colors */
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #faf9f6; /* Light cream background */
-  color: #4a4a4a; /* Dark grey text */
-  margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #faf9f6; /* Light cream background */
+    color: #4a4a4a; /* Dark grey text */
+    margin: 0;
 }
 
 /* Header section styling */
 /* Adds a pastel lavender background and centers header text */
 header {
-  background-color: #d9cfe2; /* Pastel lavender */
-  color: #333;
-  padding: 20px;
-  text-align: center;
-  font-size: 1.8em;
+    background-color: #d9cfe2; /* Pastel lavender */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.8em;
 }
 
 /* Navigation styling with Flexbox */
 /* Pastel green background for nav items and rounded corners on hover */
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
 }
 
 nav ul li {
-  margin: 0 15px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-  color: #4a4a4a;
-  text-decoration: none;
-  padding: 10px;
-  background-color: #b4e1d1; /* Soft mint green */
-  border-radius: 8px;
+    color: #4a4a4a;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #b4e1d1; /* Soft mint green */
+    border-radius: 8px;
 }
 
 nav ul li a:hover {
-  color: #ffffff;
-  background-color: #88c1b0; /* Slightly darker mint green on hover */
+    color: #ffffff;
+    background-color: #88c1b0; /* Slightly darker mint green on hover */
 }
 
 /* Section styling for #bio with unique visual treatment */
 /* Light peach background and soft border */
 #bio {
-  padding: 20px;
-  background-color: #ffe5d9; /* Light pastel peach */
-  margin: 20px auto;
-  width: 80%;
-  border: 2px solid #ffcbaf; /* Soft peach border */
-  border-radius: 10px; /* Rounded corners for a gentle look */
+    padding: 20px;
+    background-color: #ffe5d9; /* Light pastel peach */
+    margin: 20px auto;
+    width: 80%;
+    border: 2px solid #ffcbaf; /* Soft peach border */
+    border-radius: 10px; /* Rounded corners for a gentle look */
 }
 
-/* Styling for headings */
-/* Soft pastel purple for heading colors */
+/* Styling for primary heading with Google Font */
+/* Uses the imported Google Font for h1 elements */
 h1 {
-  font-size: 2.5em;
-  font-weight: 700;
-  color: #a09bbf; /* Soft pastel purple */
-  text-align: center;
+    font-family: 'Pacifico', cursive; /* Using Google Font for primary heading */
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #a09bbf; /* Soft pastel purple */
+    text-align: center;
 }
 
 h2 {
-  font-size: 1.8em;
-  font-weight: 700;
-  color: #a09bbf; /* Soft pastel purple */
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #a09bbf; /* Soft pastel purple */
 }
 
 /* Image styling */
 /* Rounded corners, border, and shadow to enhance visual appeal */
 img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  border: 3px solid #cde4db; /* Light mint border */
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 3px solid #cde4db; /* Light mint border */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 figure {
-  text-align: center;
+    text-align: center;
 }
 
 figcaption {
-  font-size: 0.9em;
-  color: #7a7a7a;
+    font-size: 0.9em;
+    color: #7a7a7a;
 }
 
 /* Table styling */
 /* Adds pastel accents and spacing for readability */
 table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 20px 0;
-  background-color: #fef6e4; /* Light pastel yellow */
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fef6e4; /* Light pastel yellow */
 }
 
 caption {
-  font-weight: bold;
-  font-size: 1.2em;
-  color: #4a4a4a;
-  margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #4a4a4a;
+    margin-bottom: 10px;
 }
 
 th, td {
-  border: 1px solid #d3c7a1; /* Soft tan */
-  padding: 10px;
-  text-align: center;
+    border: 1px solid #d3c7a1; /* Soft tan */
+    padding: 10px;
+    text-align: center;
 }
 
 th {
-  background-color: #f7e9d7; /* Light tan */
+    background-color: #f7e9d7; /* Light tan */
 }
 
 /* Link styling */
 /* Soft blue color with underline effect on hover */
 a {
-  color: #7fa9d7; /* Soft pastel blue */
-  text-decoration: none;
+    color: #7fa9d7; /* Soft pastel blue */
+    text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: #5189c5; /* Darker pastel blue on hover */
+    text-decoration: underline;
+    color: #5189c5; /* Darker pastel blue on hover */
 }
 
 /* Footer styling */
 /* Soft pastel pink background to clearly distinguish footer */
 footer {
-  background-color: #f2c6de; /* Light pastel pink */
-  color: #4a4a4a;
-  text-align: center;
-  padding: 15px;
-  margin-top: 20px;
-  font-size: 0.9em;
+    background-color: #f2c6de; /* Light pastel pink */
+    color: #4a4a4a;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 0.9em;
 }
 
 /* Layout adjustment for non-linear flow using Flexbox */
 /* Sidebar and main content with light pastel backgrounds */
 .main-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .main-content .sidebar {
-  width: 25%;
-  background-color: #f8ece8; /* Light pastel beige */
-  padding: 15px;
-  border-right: 2px solid #e1c4bb; /* Light beige border */
-  border-radius: 10px;
+    width: 25%;
+    background-color: #f8ece8; /* Light pastel beige */
+    padding: 15px;
+    border-right: 2px solid #e1c4bb; /* Light beige border */
+    border-radius: 10px;
 }
 
 .main-content .main {
-  width: 70%;
-  padding: 15px;
+    width: 70%;
+    padding: 15px;
 }
 
 /* Contact information styling */
 /* Soft pastel blue background and rounded borders */
 .contact-info {
-  background-color: #d4e5f7; /* Light pastel blue */
-  padding: 15px;
-  margin: 20px 0;
-  border-radius: 8px;
+    background-color: #d4e5f7; /* Light pastel blue */
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 8px;
 }
 
 /* Responsive design section */
 /* Adjusts layout and font sizes for smaller screens */
 @media (max-width: 800px) {
-  /* Stacks layout vertically on smaller screens */
-  .main-content {
-      flex-direction: column;
-  }
-  
-  nav ul {
-      flex-direction: column;
-  }
+    /* Stacks layout vertically on smaller screens */
+    .main-content {
+        flex-direction: column;
+    }
+    
+    nav ul {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 600px) {
-  body {
-      font-size: 14px;
-  }
+    body {
+        font-size: 14px;
+    }
 
-  nav ul li a {
-      padding: 5px;
-  }
+    nav ul li a {
+        padding: 5px;
+    }
 }
